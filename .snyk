@@ -1,0 +1,34 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.7.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:ms:20170412':
+    - angular-cli > ember-cli > testem > socket.io > socket.io-adapter > socket.io-parser > debug > ms:
+        patched: '2017-05-25T01:36:23.454Z'
+    - compression > debug > ms:
+        patched: '2017-05-25T01:36:23.454Z'
+    - angular-cli > ember-cli > tiny-lr > debug > ms:
+        patched: '2017-05-25T01:36:23.454Z'
+    - angular-cli > webpack-dev-server > compression > debug > ms:
+        patched: '2017-05-25T01:36:23.454Z'
+    - angular-cli > webpack-dev-server > serve-index > debug > ms:
+        patched: '2017-05-25T01:36:23.454Z'
+    - angular-cli > ember-cli > tiny-lr > body-parser > debug > ms:
+        patched: '2017-05-25T01:36:23.454Z'
+    - angular-cli > ember-cli > testem > socket.io > socket.io-parser > debug > ms:
+        patched: '2017-05-25T01:36:23.454Z'
+    - angular-cli > ember-cli > compression > debug > ms:
+        patched: '2017-05-25T01:36:23.454Z'
+    - angular-cli > ember-cli > testem > socket.io > socket.io-client > socket.io-parser > debug > ms:
+        patched: '2017-05-25T01:36:23.454Z'
+    - angular-cli > ember-cli > testem > socket.io > debug > ms:
+        patched: '2017-05-25T01:36:23.454Z'
+    - angular-cli > ember-cli > testem > socket.io > engine.io > debug > ms:
+        patched: '2017-05-25T01:36:23.454Z'
+    - angular-cli > ember-cli > testem > socket.io > socket.io-adapter > debug > ms:
+        patched: '2017-05-25T01:36:23.454Z'
+    - angular-cli > ember-cli > testem > socket.io > socket.io-client > debug > ms:
+        patched: '2017-05-25T01:36:23.454Z'
+    - angular-cli > ember-cli > testem > socket.io > socket.io-client > engine.io-client > debug > ms:
+        patched: '2017-05-25T01:36:23.454Z'
