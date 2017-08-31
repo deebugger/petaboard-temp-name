@@ -1,0 +1,13 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.7.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:minimatch:20160620':
+    - angular-cli > ember-cli > npm > node-gyp > glob > minimatch:
+        patched: '2017-08-31T02:15:22.766Z'
+    - angular-cli > ember-cli > npm > node-gyp > minimatch:
+        patched: '2017-08-31T02:15:22.766Z'
+  'npm:tough-cookie:20160722':
+    - angular-cli > ember-cli > npm > request > tough-cookie:
+        patched: '2017-08-31T02:15:22.766Z'
