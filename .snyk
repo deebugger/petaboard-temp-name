@@ -1,0 +1,85 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.21.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - angular-cli > ember-cli > testem > socket.io > debug:
+        patched: '2021-08-28T21:25:17.721Z'
+    - angular-cli > ember-cli > testem > socket.io > engine.io > debug:
+        patched: '2021-08-28T21:25:17.721Z'
+    - angular-cli > ember-cli > testem > socket.io > socket.io-adapter > debug:
+        patched: '2021-08-28T21:25:17.721Z'
+    - angular-cli > ember-cli > testem > socket.io > socket.io-client > debug:
+        patched: '2021-08-28T21:25:17.721Z'
+    - angular-cli > ember-cli > testem > socket.io > socket.io-client > engine.io-client > debug:
+        patched: '2021-08-28T21:25:17.721Z'
+    - angular-cli > ember-cli > tiny-lr > debug:
+        patched: '2021-08-28T21:25:17.721Z'
+    - angular-cli > ember-cli > tiny-lr > body-parser > debug:
+        patched: '2021-08-28T21:25:17.721Z'
+    - angular-cli > ember-cli > testem > socket.io > socket.io-parser > debug:
+        patched: '2021-08-28T21:25:17.721Z'
+    - angular-cli > ember-cli > testem > socket.io > socket.io-adapter > socket.io-parser > debug:
+        patched: '2021-08-28T21:25:17.721Z'
+    - angular-cli > ember-cli > testem > socket.io > socket.io-client > socket.io-parser > debug:
+        patched: '2021-08-28T21:25:17.721Z'
+  'npm:hoek:20180212':
+    - angular-cli > ember-cli > npm > request > hawk > hoek:
+        patched: '2021-08-28T21:25:17.721Z'
+    - angular-cli > ember-cli > npm > request > hawk > boom > hoek:
+        patched: '2021-08-28T21:25:17.721Z'
+    - angular-cli > ember-cli > npm > request > hawk > sntp > hoek:
+        patched: '2021-08-28T21:25:17.721Z'
+    - angular-cli > ember-cli > npm > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-08-28T21:25:17.721Z'
+  'npm:lodash:20180130':
+    - angular-cli > ember-cli > ember-cli-preprocess-registry > lodash:
+        patched: '2021-08-28T21:25:17.721Z'
+    - angular-cli > ember-cli > broccoli-babel-transpiler > babel-core > lodash:
+        patched: '2021-08-28T21:25:17.721Z'
+    - angular-cli > ember-cli > broccoli-babel-transpiler > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2021-08-28T21:25:17.721Z'
+  'npm:minimatch:20160620':
+    - angular-cli > ember-cli > broccoli-babel-transpiler > babel-core > minimatch:
+        patched: '2021-08-28T21:25:17.721Z'
+    - angular-cli > ember-cli > findup-sync > glob > minimatch:
+        patched: '2021-08-28T21:25:17.721Z'
+    - angular-cli > ember-cli > ember-cli-broccoli > findup-sync > glob > minimatch:
+        patched: '2021-08-28T21:25:17.721Z'
+    - angular-cli > ember-cli > npm > node-gyp > glob > minimatch:
+        patched: '2021-08-28T21:25:17.721Z'
+    - angular-cli > ember-cli > npm > node-gyp > minimatch:
+        patched: '2021-08-28T21:25:17.721Z'
+  'npm:ms:20170412':
+    - angular-cli > ember-cli > testem > socket.io > debug > ms:
+        patched: '2021-08-28T21:25:17.721Z'
+    - angular-cli > ember-cli > testem > socket.io > engine.io > debug > ms:
+        patched: '2021-08-28T21:25:17.721Z'
+    - angular-cli > ember-cli > testem > socket.io > socket.io-adapter > debug > ms:
+        patched: '2021-08-28T21:25:17.721Z'
+    - angular-cli > ember-cli > testem > socket.io > socket.io-client > debug > ms:
+        patched: '2021-08-28T21:25:17.721Z'
+    - angular-cli > ember-cli > testem > socket.io > socket.io-client > engine.io-client > debug > ms:
+        patched: '2021-08-28T21:25:17.721Z'
+    - angular-cli > ember-cli > tiny-lr > debug > ms:
+        patched: '2021-08-28T21:25:17.721Z'
+    - angular-cli > ember-cli > tiny-lr > body-parser > debug > ms:
+        patched: '2021-08-28T21:25:17.721Z'
+    - angular-cli > ember-cli > testem > socket.io > socket.io-parser > debug > ms:
+        patched: '2021-08-28T21:25:17.721Z'
+    - angular-cli > ember-cli > testem > socket.io > socket.io-adapter > socket.io-parser > debug > ms:
+        patched: '2021-08-28T21:25:17.721Z'
+    - angular-cli > ember-cli > testem > socket.io > socket.io-client > socket.io-parser > debug > ms:
+        patched: '2021-08-28T21:25:17.721Z'
+  'npm:tough-cookie:20170905':
+    - angular-cli > ember-cli > npm > request > tough-cookie:
+        patched: '2021-08-28T21:25:17.721Z'
+  'npm:tunnel-agent:20170305':
+    - angular-cli > ember-cli > npm > request > tunnel-agent:
+        patched: '2021-08-28T21:25:17.721Z'
+  'npm:ws:20160920':
+    - angular-cli > ember-cli > testem > socket.io > engine.io > ws:
+        patched: '2021-08-28T21:25:17.721Z'
+    - angular-cli > ember-cli > testem > socket.io > socket.io-client > engine.io-client > ws:
+        patched: '2021-08-28T21:25:17.721Z'
