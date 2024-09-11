@@ -1,0 +1,111 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - angular-cli > ember-cli > testem > socket.io > debug:
+        patched: '2024-09-11T01:53:37.737Z'
+        id: 'npm:debug:20170905'
+        path: angular-cli > ember-cli > testem > socket.io > debug
+    - angular-cli > ember-cli > testem > socket.io > engine.io > debug:
+        patched: '2024-09-11T01:53:37.737Z'
+        id: 'npm:debug:20170905'
+        path: angular-cli > ember-cli > testem > socket.io > engine.io > debug
+    - angular-cli > ember-cli > testem > socket.io > socket.io-adapter > debug:
+        patched: '2024-09-11T01:53:37.737Z'
+        id: 'npm:debug:20170905'
+        path: >-
+          angular-cli > ember-cli > testem > socket.io > socket.io-adapter >
+          debug
+    - angular-cli > ember-cli > testem > socket.io > socket.io-client > debug:
+        patched: '2024-09-11T01:53:37.737Z'
+        id: 'npm:debug:20170905'
+        path: >-
+          angular-cli > ember-cli > testem > socket.io > socket.io-client >
+          debug
+    - angular-cli > ember-cli > testem > socket.io > socket.io-client > engine.io-client > debug:
+        patched: '2024-09-11T01:53:37.737Z'
+        id: 'npm:debug:20170905'
+        path: >-
+          angular-cli > ember-cli > testem > socket.io > socket.io-client >
+          engine.io-client > debug
+    - angular-cli > ember-cli > testem > socket.io > socket.io-parser > debug:
+        patched: '2024-09-11T01:53:37.737Z'
+        id: 'npm:debug:20170905'
+        path: >-
+          angular-cli > ember-cli > testem > socket.io > socket.io-parser >
+          debug
+    - angular-cli > ember-cli > testem > socket.io > socket.io-adapter > socket.io-parser > debug:
+        patched: '2024-09-11T01:53:37.737Z'
+        id: 'npm:debug:20170905'
+        path: >-
+          angular-cli > ember-cli > testem > socket.io > socket.io-adapter >
+          socket.io-parser > debug
+    - angular-cli > ember-cli > testem > socket.io > socket.io-client > socket.io-parser > debug:
+        patched: '2024-09-11T01:53:37.737Z'
+        id: 'npm:debug:20170905'
+        path: >-
+          angular-cli > ember-cli > testem > socket.io > socket.io-client >
+          socket.io-parser > debug
+  'npm:lodash:20180130':
+    - angular-cli > ember-cli > ember-cli-preprocess-registry > lodash:
+        patched: '2024-09-11T01:53:37.737Z'
+        id: 'npm:lodash:20180130'
+        path: angular-cli > ember-cli > ember-cli-preprocess-registry > lodash
+  'npm:ms:20170412':
+    - angular-cli > ember-cli > testem > socket.io > debug > ms:
+        patched: '2024-09-11T01:53:37.737Z'
+        id: 'npm:ms:20170412'
+        path: angular-cli > ember-cli > testem > socket.io > debug > ms
+    - angular-cli > ember-cli > testem > socket.io > engine.io > debug > ms:
+        patched: '2024-09-11T01:53:37.737Z'
+        id: 'npm:ms:20170412'
+        path: angular-cli > ember-cli > testem > socket.io > engine.io > debug > ms
+    - angular-cli > ember-cli > testem > socket.io > socket.io-adapter > debug > ms:
+        patched: '2024-09-11T01:53:37.737Z'
+        id: 'npm:ms:20170412'
+        path: >-
+          angular-cli > ember-cli > testem > socket.io > socket.io-adapter >
+          debug > ms
+    - angular-cli > ember-cli > testem > socket.io > socket.io-client > debug > ms:
+        patched: '2024-09-11T01:53:37.737Z'
+        id: 'npm:ms:20170412'
+        path: >-
+          angular-cli > ember-cli > testem > socket.io > socket.io-client >
+          debug > ms
+    - angular-cli > ember-cli > testem > socket.io > socket.io-client > engine.io-client > debug > ms:
+        patched: '2024-09-11T01:53:37.737Z'
+        id: 'npm:ms:20170412'
+        path: >-
+          angular-cli > ember-cli > testem > socket.io > socket.io-client >
+          engine.io-client > debug > ms
+    - angular-cli > ember-cli > testem > socket.io > socket.io-parser > debug > ms:
+        patched: '2024-09-11T01:53:37.737Z'
+        id: 'npm:ms:20170412'
+        path: >-
+          angular-cli > ember-cli > testem > socket.io > socket.io-parser >
+          debug > ms
+    - angular-cli > ember-cli > testem > socket.io > socket.io-adapter > socket.io-parser > debug > ms:
+        patched: '2024-09-11T01:53:37.737Z'
+        id: 'npm:ms:20170412'
+        path: >-
+          angular-cli > ember-cli > testem > socket.io > socket.io-adapter >
+          socket.io-parser > debug > ms
+    - angular-cli > ember-cli > testem > socket.io > socket.io-client > socket.io-parser > debug > ms:
+        patched: '2024-09-11T01:53:37.737Z'
+        id: 'npm:ms:20170412'
+        path: >-
+          angular-cli > ember-cli > testem > socket.io > socket.io-client >
+          socket.io-parser > debug > ms
+  'npm:ws:20160920':
+    - angular-cli > ember-cli > testem > socket.io > engine.io > ws:
+        patched: '2024-09-11T01:53:37.737Z'
+        id: 'npm:ws:20160920'
+        path: angular-cli > ember-cli > testem > socket.io > engine.io > ws
+    - angular-cli > ember-cli > testem > socket.io > socket.io-client > engine.io-client > ws:
+        patched: '2024-09-11T01:53:37.737Z'
+        id: 'npm:ws:20160920'
+        path: >-
+          angular-cli > ember-cli > testem > socket.io > socket.io-client >
+          engine.io-client > ws
